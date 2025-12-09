@@ -5,6 +5,11 @@
 [![Node.js 18+](https://img.shields.io/badge/node.js-18+-green.svg)](https://nodejs.org/)
 [![PostgreSQL 12+](https://img.shields.io/badge/PostgreSQL-12+-blue.svg)](https://www.postgresql.org/)
 
+</br>
+<img width="1519" height="868" alt="image" src="https://github.com/user-attachments/assets/7d2c3b39-a5ab-4909-b193-1c28666ae1c4" />
+
+</br>
+
 A comprehensive clinical decision support system that predicts hospital readmission probabilities using advanced survival analysis techniques including Weibull distributions, Cox Proportional Hazards, Kaplan-Meier curves, and competing risks models.
 
 ## 🎯 Project Overview
@@ -81,7 +86,7 @@ healthcare-readmission-predictor/
 ├── ReadmissionService.cs         # C# enterprise service layer
 ├── main.dart                      # Flutter cross-platform app
 ├── schema.sql                     # PostgreSQL database schema
-├── dashboard.jsx                  # React interactive dashboard (artifact)
+├── readmission_dashboard.tsx         # TypeScript Interactive Artifact
 └── README.md                      # This file
 ```
 
@@ -254,14 +259,6 @@ npm test
 flutter test
 ```
 
-## 📈 Future Enhancements
-
-- [ ] Deep learning integration (LSTM for temporal patterns)
-- [ ] Natural language processing for clinical notes
-- [ ] Real-time HL7/FHIR integration
-- [ ] Multi-site deployment with federated learning
-- [ ] Voice-activated clinical interface
-- [ ] Predictive alerts via SMS/push notifications
 
 ## 🤝 Contributing
 
@@ -271,28 +268,6 @@ Contributions are welcome! Please read our contributing guidelines and submit pu
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Authors
-
-- **Survival Analysis Engine**: Python statistical modeling team
-- **Backend Development**: NestJS/TypeScript engineers
-- **Mobile Development**: iOS (Swift) and Flutter (Dart) specialists
-- **Enterprise Integration**: C# .NET architects
-- **Clinical Validation**: Healthcare informatics specialists
-
-## 📚 References
-
-1. Cox, D. R. (1972). Regression Models and Life-Tables. *Journal of the Royal Statistical Society*.
-2. Kaplan, E. L., & Meier, P. (1958). Nonparametric Estimation from Incomplete Observations. *Journal of the American Statistical Association*.
-3. Fine, J. P., & Gray, R. J. (1999). A Proportional Hazards Model for the Subdistribution of a Competing Risk. *Journal of the American Statistical Association*.
-4. Jencks, S. F., Williams, M. V., & Coleman, E. A. (2009). Rehospitalizations among Patients in the Medicare Fee-for-Service Program. *New England Journal of Medicine*.
-
-## 📞 Support
-
-For technical support or questions about clinical implementation:
-- Email: support@readmission-predictor.health
-- Documentation: https://docs.readmission-predictor.health
-- GitHub Issues: https://github.com/yourusername/readmission-predictor/issues
-
 ---
 
-**Note**: This system is designed for clinical decision support and should be used in conjunction with professional medical judgment. All predictions should be validated by qualified healthcare providers.
+**⭐ Star this repository if you find it helpful!**
